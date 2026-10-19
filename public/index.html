@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <meta name="description" content="A small, isolated test of an automated website deployment workflow.">
+    <title>Deployment test</title>
+    <style>
+      :root { color-scheme: light; font-family: system-ui, sans-serif; color: #19312b; background: #f3f6f3; }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 1.5rem; }
+      main { width: 100%; max-width: 42rem; padding: clamp(1.5rem, 5vw, 3rem); background: white; border: 1px solid #d6dfd8; border-radius: 1rem; }
+      .label { margin: 0 0 1rem; color: #42604c; font-size: .8rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+      h1 { margin: 0 0 1rem; font-size: clamp(2rem, 6vw, 3rem); line-height: 1.12; letter-spacing: -.03em; }
+      p { line-height: 1.65; }
+      .revision { display: inline-block; margin: .75rem 0; padding: .5rem .8rem; border-radius: .4rem; background: #e7f0e9; font-family: ui-monospace, monospace; font-weight: 600; }
+      footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #d6dfd8; color: #53665b; font-size: .9rem; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="label">Isolated deployment test</p>
+      <h1>A small page. A visible revision.</h1>
+      <p>This page is a technical demonstration for checking whether a source change reaches a preview website.</p>
+      <p class="revision" id="revision">Revision 0 — baseline</p>
+      <p>Compare the revision above with the commit shown in the deployment record.</p>
+      <footer>Test content only. This page does not represent an organization or an approved website design.</footer>
+    </main>
+  </body>
+</html>
